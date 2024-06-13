@@ -1,27 +1,31 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: '首页',
     path: '/',
   },
   {
-    label: 'About',
+    label: '关于',
     path: '/about',
   },
   {
-    label: 'Resume',
+    label: '经历',
     path: '/resume',
   },
   {
-    label: 'Projects',
+    label: '参与项目',
     path: '/projects',
   },
   {
-    label: 'Stats',
+    label: '技能点',
+    path: '/skill',
+  },
+  {
+    label: '统计',
     path: '/stats',
   },
   {
-    label: 'Contact',
+    label: '联系我',
     path: '/contact',
   },
 ];

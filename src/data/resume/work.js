@@ -13,17 +13,12 @@
  */
 const work = [
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    name: '埃森哲',
+    position: '技术经理',
+    url: 'https://www.accenture.com',
+    startDate: '2017-04-10',
+    summary: `2017年4月 ~ 2023年1月， 我开始了在Accenture长达六年的职业生涯，这段时间慢慢技术上也开始更多的在大数据和云计算领域沉淀着经验，也是在埃森哲，我拿了不少证书，2017年底考了PMP证书，后来陆陆续续拿到了数个云计算的证书和其他证书，2021年还拿到了华中农业大学的MBA的入学offer。外企的文化是培养人的文化，我自己也在埃森哲成长了不少。
+`,
     highlights: [
       'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
       'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',

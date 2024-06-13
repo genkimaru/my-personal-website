@@ -1,229 +1,220 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'React',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Next.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL/Redshift',
-    competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Redis',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Data Mining',
-    competency: 3,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'FastAPI',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'AWS',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Docker',
-    competency: 3,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'AWS Lambda',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
-  },
-  {
-    title: 'PyTorch',
-    competency: 3,
-    category: ['ML Engineering', 'Python'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
+    category: ['Web开发', '编程语言', '前端开发'],
   },
   {
     title: 'Typescript',
-    competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    competency: 4,
+    category: ['Web开发', '编程语言', '前端开发'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    title: 'HTML',
+    competency: 5,
+    category: ['Web开发', '编程语言'],
   },
+  {
+    title: 'CSS/SCSS/SASS',
+    competency: 4,
+    category: ['Web开发', '编程语言'],
+  },
+  {
+    title: 'React',
+    competency: 4,
+    category: ['Web开发', '前端开发'],
+  },
+  {
+    title: 'Vue',
+    competency: 4,
+    category: ['Web开发', '前端开发'],
+  },
+  {
+    title: 'Angular',
+    competency: 5,
+    category: ['Web开发', '前端开发'],
+  },
+  {
+    title: 'Webpack',
+    competency: 3,
+    category: ['Web开发', '前端开发'],
+  },
+  {
+    title: 'tailWindcss',
+    competency: 3,
+    category: ['Web开发', '前端开发'],
+  },
+  {
+    title: 'Node.JS',
+    competency: 3,
+    category: ['Web开发', '后端开发'],
+  },
+  {
+    title: 'Nest.JS',
+    competency: 3,
+    category: ['Web开发', '后端开发'],
+  },
+  {
+    title: 'Java',
+    competency: 5,
+    category: ['后端开发', '编程语言', '大数据'],
+  },
+  {
+    title: 'Spring Boot',
+    competency: 4,
+    category: ['后端开发'],
+  },
+  {
+    title: 'Mybatis',
+    competency: 4,
+    category: ['后端开发'],
+  },
+  {
+    title: 'Spring Cloud',
+    competency: 3,
+    category: ['后端开发'],
+  },
+  {
+    title: 'Linux/Bash脚本',
+    competency: 4,
+    category: ['Web开发', '后端开发'],
+  },
+  {
+    title: 'Maven',
+    competency: 4,
+    category: ['Web开发', '后端开发'],
+  },
+  {
+    title: 'Nginx',
+    competency: 5,
+    category: ['Web开发', '后端开发'],
+  },
+  {
+    title: 'Tomcat',
+    competency: 4,
+    category: ['Web开发', '后端开发'],
+  },
+  {
+    title: 'git',
+    competency: 5,
+    category: ['Web开发'],
+  },
+  {
+    title: 'MySQL/PostgreSQL',
+    competency: 5,
+    category: ['Web开发', '数据库'],
+  },
+  {
+    title: 'SQL',
+    competency: 5,
+    category: ['后端开发', '数据库', '编程语言'],
+  },
+
+  {
+    title: 'MongoDB',
+    competency: 3,
+    category: ['Web开发', '数据库', 'NoSQL'],
+  },
+  {
+    title: 'ElasticSearch',
+    competency: 3,
+    category: ['Web开发', '数据库', 'NoSQL'],
+  },
+
+  {
+    title: 'Redis',
+    competency: 3,
+    category: ['Web开发', '数据库', 'NoSQL'],
+  },
+  {
+    title: 'Hbase',
+    competency: 4,
+    category: ['大数据', '数据库', 'NoSQL'],
+  },
+  {
+    title: 'Hadoop/HDFS/Mapreduce',
+    competency: 5,
+    category: ['大数据'],
+  },
+  {
+    title: 'Kubernetes',
+    competency: 4,
+    category: ['容器', '后端开发'],
+  },
+
+  {
+    title: 'Docker',
+    competency: 4,
+    category: ['容器', '后端开发'],
+  },
+
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
+    category: ['编程语言', '后端开发', '大数据'],
   },
   {
-    title: 'Ruby',
-    competency: 2,
-    category: ['Languages'],
+    title: 'Grafana',
+    competency: 4,
+    category: ['大数据', '前端开发'],
   },
   {
-    title: 'Ruby on Rails',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'C++',
-    competency: 1,
-    category: ['Languages'],
-  },
-  {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
+    title: 'Power BI',
+    competency: 4,
+    category: ['大数据', '前端开发'],
   },
   {
     title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
+    competency: 3,
+    category: ['Web开发', '数据库'],
   },
   {
     title: 'Pandas',
     competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['大数据'],
   },
+
   {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
-  },
-  {
-    title: 'Scikit-Learn',
+    title: 'Flink',
     competency: 4,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['大数据'],
   },
   {
     title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering'],
+    competency: 5,
+    category: ['大数据'],
   },
   {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
-  },
-  {
-    title: 'Pylint',
+    title: 'Airflow',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['大数据'],
   },
+  {
+    title: 'BigQuery',
+    competency: 4,
+    category: ['数据库', '大数据'],
+  },
+  {
+    title: 'Ali CLoud',
+    competency: 4,
+    category: ['云计算'],
+  },
+  {
+    title: 'Google Cloud Platform',
+    competency: 4,
+    category: ['云计算'],
+  },
+  {
+    title: 'Amazon Web Services',
+    competency: 4,
+    category: ['云计算'],
+  },
+  {
+    title: 'Azure',
+    competency: 4,
+    category: ['云计算'],
+  },
+
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 // this is a list of colors that I like. The length should be === to the
