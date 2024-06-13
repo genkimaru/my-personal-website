@@ -9,7 +9,7 @@ const routes = [
     path: '/about',
   },
   {
-    label: '经历',
+    label: '简历',
     path: '/resume',
   },
   {

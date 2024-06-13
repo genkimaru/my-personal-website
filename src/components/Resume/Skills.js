@@ -60,9 +60,8 @@ const Skills = ({ skills, categories }) => {
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title">
-        <h3>Skills</h3>
-        <p>Note: I think these sections are silly, but everyone seems to have one.
-          Here is a *mostly* honest overview of my skills.
+        <h3>技能点</h3>
+        <p>这些技能点并不代表我拥有的全部技能点，有些领域只选取重要的技能写出。
         </p>
       </div>
       <div className="skill-button-container">
